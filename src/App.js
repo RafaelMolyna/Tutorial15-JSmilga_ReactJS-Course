@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 // import pages
 import Home from './pages/Home'
 import About from './pages/About'
+import ContactMe from './pages/ContactMe'
 import SingleCocktail from './pages/SingleCocktail'
 import Error from './pages/Error'
 // import components
@@ -18,6 +19,9 @@ function App() {
         </Route>
         <Route path='/about' >
           <About />
+        </Route>
+        <Route path='/contact' >
+          <ContactMe />
         </Route>
         <Route path='/cocktail/:id' >
           <SingleCocktail />

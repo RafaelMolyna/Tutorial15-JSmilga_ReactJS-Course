@@ -1,0 +1,44 @@
+.no-transform {
+  text-transform: none !important;
+}
+
+.image-contact {
+  margin: 0 auto 2rem auto;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 100%;
+  background: url("../present.jpeg");
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+  transition: all 0.35s;
+}
+
+.image-contact:hover {
+  transform: scale(1.1);
+  box-shadow: 1px 1px 6px 2px rgba(0, 0, 0, 0.5);
+}
+
+.center {
+  width: 100%;
+  text-align: center;
+}
+
+.contact-title {
+  color: #476a2e;
+  text-transform: none;
+  margin: 0 auto 2rem auto;
+  position: relative;
+  top: -1rem;
+}
+
+.contact-info {
+  letter-spacing: 0.1rem;
+  color: #476a2e;
+  transition: all 0.35s;
+}
+
+.contact-info:hover {
+  color: #1b3409;
+  transform: scale(1.05);
+}
