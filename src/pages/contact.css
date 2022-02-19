@@ -25,7 +25,7 @@
 }
 
 .contact-title {
-  color: #476a2e;
+  color: #1b3409;
   text-transform: none;
   margin: 0 auto 2rem auto;
   position: relative;
@@ -34,11 +34,10 @@
 
 .contact-info {
   letter-spacing: 0.1rem;
-  color: #476a2e;
+  color: #1b3409;
   transition: all 0.35s;
 }
 
 .contact-info:hover {
-  color: #1b3409;
   transform: scale(1.05);
 }

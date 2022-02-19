@@ -21,9 +21,9 @@ const ContactMe = function() {
           <BsWhatsapp /> +55 19 9 8915-9781
         </h4>
         <a target='_blank' href="https://www.linkedin.com/in/rafael-ogallas-b48075191/">
-        <h4 className='contact-info'>
-          <BsLinkedin /> Linkedin
-        </h4>
+          <h4 className='contact-info'>
+            <BsLinkedin /> Linkedin
+          </h4>
         </a>
       </div>
     </section>
