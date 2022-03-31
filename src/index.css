@@ -223,6 +223,9 @@ Cocktails List
   /* align-items: start; */
 }
 @media screen and (min-width: 576px) {
+  .nav-center {
+    display: inline-block;
+  }
   .cocktails-center {
     grid-template-columns: repeat(auto-fill, minmax(338.8px, 1fr));
   }
