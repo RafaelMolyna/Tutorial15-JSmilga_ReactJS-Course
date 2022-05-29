@@ -20,7 +20,7 @@ Variables
   --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
   --mainBorderRadius: 0.25rem;
-  --smallWidth: 93vw;
+  --smallWidth: 85vw;
   --maxWidth: 40rem;
   --fullWidth: 1170px;
 }
@@ -36,8 +36,8 @@ Global Styles
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: var(--mainBlack);
   background: var(--mainBackground);
   line-height: 1.4;
@@ -131,6 +131,12 @@ Buttons
 Navbar
 ======
 */
+@media screen and (max-width: 500px) {
+  h2.contact-info {
+    font-size: 6vw;
+  }
+}
+
 .navbar {
   background: var(--mainWhite);
   height: 5rem;
@@ -140,6 +146,7 @@ Navbar
   box-shadow: var(--lightShadow);
 }
 .nav-center {
+  flex-wrap: wrap;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -148,6 +155,7 @@ Navbar
   max-width: var(--fullWidth);
 }
 .nav-links {
+  flex-wrap: wrap;
   display: flex;
   align-items: center;
 }
@@ -223,9 +231,6 @@ Cocktails List
   /* align-items: start; */
 }
 @media screen and (min-width: 576px) {
-  .nav-center {
-    display: inline-block;
-  }
   .cocktails-center {
     grid-template-columns: repeat(auto-fill, minmax(338.8px, 1fr));
   }
@@ -378,7 +383,7 @@ Cocktail
 .loader:after {
   position: absolute;
   top: 0;
-  content: '';
+  content: "";
 }
 .loader:before {
   left: -1.5em;
