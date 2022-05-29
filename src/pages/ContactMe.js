@@ -12,8 +12,8 @@ const ContactMe = function() {
       </h1>
       <div className='image-contact'></div>
       <div className='center'>
-        <p> I'm an Electrical Engineering Student at Unicamp. I'm on the second half of my graduation, graduating in Dec 2023 (so i wait!). </p>
-        <p> I'm an Web Development learner looking for my first job as a Dev. If you want to know more about me, please contact me:</p>
+        <p> I'm an Electrical Engineering Student at Unicamp. I'm on the second half of my graduation, graduating in Dec 2023 / Jul 2024. </p>
+        <p> I'm a Web Development learner looking for my first job as a Dev. If you want to know more about me, please contact me:</p>
         <h3 className='contact-info'>
           <FiMail /> rafaelogallas@gmail.com
         </h3>
